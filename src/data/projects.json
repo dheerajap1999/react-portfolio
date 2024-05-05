@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Seam Installer",
+    "imageSrc": "projects/project.png",
+    "description": "The Seam Installer project aims to automate software download and install.",
+    "skills": ["Python", "MySQL", "HTML/CSS", "JS"]
+  },
+  {
+    "title": "Habbit Tracker",
+    "imageSrc": "projects/project.png",
+    "description": "The habit tracker is designed to efficiently manage daily tasks by prioritizing.",
+    "skills": ["React", "HTML/CSS","Bootstrap","JS"],
+    "demo": "https://dheerajap1999.github.io/Habbit-Tracker-React",
+    "source": "https://github.com/dheerajap1999/Habbit-Tracker-React.git"
+  },
+  {
+    "title": "Shopping Cart",
+    "imageSrc": "projects/project.png",
+    "description": "The platform features product management, a type of E-Commerce application.",
+    "skills": ["React", "HTML/CSS","Bootstrap","JS"],
+    "demo": "https://dheerajap1999.github.io/Shopping-Cart-BusyBuy/",
+    "source": "https://github.com/dheerajap1999/Shopping-Cart-BusyBuy"
+  },
+  {
+    "title": "Expense Tracker",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project used to track the user expencese on daily needs of profit and loss.",
+    "skills": ["React", "HTML/CSS","Bootstrap","JS"],
+    "demo": "https://dheerajap1999.github.io/Expense-Tracker/",
+    "source": "https://github.com/dheerajap1999/Expense-Tracker"
+  },
+  {
+    "title": "Blog Application",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project were user add his/her thought's also connected to FireBase DataBase",
+    "skills": ["React", "HTML/CSS","FireBase","JS"],
+    "demo": "https://dheerajap1999.github.io/React-JS-Blog",
+    "source": "https://github.com/dheerajap1999/React-JS-Blog"
+  },
+  {
+    "title": "Employee Review",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project were employees can give review to any employee on there organization",
+    "skills": ["React", "HTML/CSS","FireBase","JS"],
+    "demo": "https://52.66.7.156:5000/",
+    "source": "https://github.com/dheerajap1999/Employee-Review"
+  },
+  {
+    "title": "Album Api",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project were user can create album via api, Also use can update and delete album",
+    "skills": ["React", "HTML/CSS","ReduxThunk","JS"],
+    "demo": "https://dheerajap1999.github.io/Album-Api",
+    "source": "https://github.com/dheerajap1999/Album-Api"
+  }
+]

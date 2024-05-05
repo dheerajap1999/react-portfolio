@@ -1,0 +1,10 @@
+[
+  {
+    "role": "Software developer",
+    "organisation": "Seamless",
+    "startDate": "Jan, 2022",
+    "endDate": "Mar, 2024",
+    "experiences": ["Worked on Automation Anywhere tool", "Web-scrapping using python", " Design different dashboards","Seam installer product"],
+    "imageSrc": "history/seamless.png"
+  }
+]

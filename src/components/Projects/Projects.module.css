@@ -1,0 +1,51 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.projects {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+.cards {
+  display: flex;
+  padding: 25px 0px;
+  list-style: none;
+  overflow-x: scroll;
+  background:linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  scroll-snap-type: x mandatory;
+}
+
+.cardContainer {
+  box-shadow: 0 16px 14px 0 #04152d;
+  max-width: 1200px;
+
+}
+@media screen and (max-width: 830px) {
+  .cards{
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    overflow-x: hidden;
+  }
+  .cards{
+    background: #04152d;
+  }
+}

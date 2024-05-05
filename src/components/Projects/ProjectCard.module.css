@@ -1,0 +1,143 @@
+@import "../../vars.css";
+
+
+
+.image {
+  margin-bottom: 26px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.description {
+  margin-top: 6px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.skills {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+}
+
+.skill {
+  font-size: 25px;
+  font-weight: 400;
+  border-radius: 100px;
+  background: var(--color-dark);
+  padding: 2px 22px;
+}
+
+.links {
+  width: 100%;
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 100px;
+  background: var(--color-primary);
+  padding: 1px 22px;
+}
+
+/* code pen css */
+h2 {
+  font-size: 32px;
+  margin-bottom: 1em;
+}
+
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 100%;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
+  scroll-snap-align: start;
+  transition: all 0.2s;
+  background:linear-gradient(0deg, #305aa7 0%, #1c3a72 100%);
+
+}
+
+.card:not(:last-child) {
+  margin-right: 10px;
+}
+
+.card:hover {
+  color: white;
+  background: rgb(38, 69, 170)
+
+}
+
+
+.cards::-webkit-scrollbar {
+  height: 12px;
+}
+
+.cards::-webkit-scrollbar-thumb,
+.cards::-webkit-scrollbar-track {
+  border-radius: 92px;
+}
+
+.cards::-webkit-scrollbar-thumb {
+  background: var(--darkred);
+}
+
+.cards::-webkit-scrollbar-track {
+  background: var(--thumb);
+}
+
+
+
+
+/* @media screen and (max-width: 830px) {
+  .card {
+    flex-basis: calc(50% - 20px);
+  }
+
+  .card:not(:last-child) {
+    margin-right: 20px;
+  }
+} */
+
+
+
+@media screen and (max-width: 830px) {
+  .card {
+    flex-basis: calc(calc(100% / 2) - 40px);
+    margin-top: 10px;
+  }
+  .imgContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card:last-child {
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .card {
+    flex-basis: calc(25% - 30px);
+  }
+
+  .card:not(:last-child) {
+    margin-right: 40px;
+  }
+}

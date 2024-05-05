@@ -1,0 +1,28 @@
+[
+    {
+      "course": "Cyber security",
+      "Institute":"Mr Web-Security",
+      "duration":"Oct 2018 to Mar 2019",
+      "certificateLink": "course/cyber security.jpg"
+    },
+    {
+      "course": "Diploma in java",
+      "Institute" : "C-DAC Classes",
+      "duration": "Oct 2019 to Mar 2020.",
+      "certificateLink": "course/java.jpeg"
+    },
+    {
+      "course":"Diploma in python",
+      "Institute":"Quashtech Classes",
+      "duration": "Jan 2021 to June 2021",
+      "certificateLink": "course/python.png"
+    },
+    {
+      "course": "Full stack web development",
+      "Institute": "Coding Ninjas",
+      "duration": "Mar 2023 to Mar 2024",
+      "certificateLink": "course/coding ninjas.jpeg"
+    }
+  
+  ]
+  
